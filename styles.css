@@ -1,0 +1,147 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header content */
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.head img {
+  height: 50px;
+  width: 200px;
+}
+
+nav {
+  align-self: flex-end;
+}
+
+/* information content */
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 30px;
+  background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
+  background-size: cover;
+}
+
+.info h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 80px;
+}
+
+.years {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.when {
+  background-color: #778899;
+  width: 90%;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.when h2 {
+  padding-top: 15px;
+  font-size: 17px;
+}
+
+.when p {
+  padding: 0;
+  font-size: 30px;
+}
+
+.img {
+  float: left;
+  padding: 10px;
+}
+
+.where {
+  background-color: #778899;
+  font-size: 15px;
+  width: 90%;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.where p {
+  padding: 0;
+  font-size: 20px;
+}
+
+.where h2 {
+  padding-top: 15px;
+  font-size: 17px;
+}
+
+/* more information */
+.about {
+  font-size: 18px;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  margin: 3em 0 3em 0;
+  padding: 0 1em 0 1em;
+}
+
+.more-info h3, p {
+  padding: 15px;
+}
+
+/* social media connect */
+.connect {
+  background-color: #24648c;
+  color: white;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.connect h3 {
+  margin: 30px;
+  font-size: 30px;
+}
+
+a {
+  margin: 20px;
+}
+
+/* Sponsors */
+.sponsors img {
+  height: 150px;
+  width: 350px;
+  padding: 20px;
+}
+
+.sponsors h3 {
+  font-size: 30px;
+  color: #24648c;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  background-color: #393939;
+  color: #f1f1f1;
+  margin-top: 2em;
+  border-top: 1px solid white;
+  padding-top: 48px;
+}
+
+footer div {
+  background-color: #313131;
+  color: #266188;
+  text-align: center;
+}
+
+.code {
+  color: #768591;
+  text-decoration: none;
+}
