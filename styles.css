@@ -132,16 +132,32 @@ footer {
   color: #f1f1f1;
   margin-top: 2em;
   border-top: 1px solid white;
-  padding-top: 48px;
 }
 
 footer div {
   background-color: #313131;
   color: #266188;
   text-align: center;
+  padding: 30px;
+}
+
+footer div>p {
+  padding: 0;
 }
 
 .code {
   color: #768591;
   text-decoration: none;
+}
+footer section {
+  padding: 24px;
+
+}
+
+footer h3 {
+  padding: 15px;
+}
+
+footer nav {
+  display: flex;
 }
