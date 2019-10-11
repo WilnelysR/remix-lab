@@ -6,27 +6,41 @@
   margin: 0;
 }
 
+/* Colors
+    dark-grey: #363535;
+    gold: #ffcb0b;
+*/
 /* Header content */
 body {
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 }
 
-header ul {
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(247,191,9,.7);
+  height: 200px;
+}
+
+.head ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding:0 50px 20px 50px;
+  padding-right: 10px;
+}
+
+.head li {
   list-style: none;
 }
 
- header img {
-  display: flex;
-  margin: 0 auto;
-  padding-bottom: 20px;
+.head a {
+  color: #185884;
+  text-decoration: none;
 }
 
-
-
+.head img {
+  padding: 50px;
+}
 
 /* information content */
 .info {
@@ -36,6 +50,7 @@ header ul {
   padding-bottom: 30px;
   background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
   background-size: cover;
+
 }
 
 .info h1 {
@@ -51,71 +66,84 @@ header ul {
 }
 
 .when {
-  background-color: #778899;
-  width: 90%;
+  background-color: #ffcb0b;
   margin-top: 20px;
-  align-self: center;
+  text-align: center;
+  padding: 20px;
 }
 
 .when h2 {
-  padding-top: 15px;
-  font-size: 17px;
+  font-size: 30px;
+  color: #73838f;
 }
 
 .when p {
   padding: 0;
-  font-size: 30px;
-}
-
-.img {
-  float: left;
-  padding: 10px;
+  font-size: 25px;
+  color: #185884;
 }
 
 .where {
-  background-color: #778899;
+  background-color: #ffcb0b;
   font-size: 15px;
-  width: 90%;
-  align-self: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .where p {
+  display: block;
   padding: 0;
-  font-size: 20px;
+  font-size: 25px;
+  color: #185884;
 }
 
 .where h2 {
-  padding-top: 15px;
-  font-size: 17px;
+  font-size: 30px;
+  color: #73838f;
 }
 
 /* more information */
 .about {
   font-size: 18px;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-  margin: 3em 0 3em 0;
-  padding: 0 1em 0 1em;
+  padding: 40px;
   color: #919191;
 }
 
-.more-info h3, p {
-  padding: 15px 40px 15px 40px;
+.cposc {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+  width: 90%;
+  height: 300px;
+}
+
+.cposc p {
+  padding-right: 20px;
+}
+
+.cposc h3 {
+  color: #185884;
+  font-size: 24px;
+  align-self: flex-start;
+  padding-bottom: 20px;
 }
 
 /* social media connect */
 .connect {
   text-align: center;
-  background-color: #24648c;
+  background-color: #ffcb0b;
   color: white;
   margin: 20px;
   padding: 10px;
 }
 
-.connect h3 {
-  margin: 30px;
-  font-size: 30px;
+.connect img {
+  height: 70px;
+
+
 }
 
 a {
@@ -124,7 +152,9 @@ a {
 
 /* Sponsors */
 .ready {
-  background-color: grey;
+  display: flex;
+  justify-content: center;
+  background-color: #185884;
   color: white;
   text-decoration: none;
   padding: 10px 40px 10px 40px;
@@ -147,9 +177,11 @@ a {
   font-size: 30px;
   color: #24648c;
   border-bottom: 1px solid black;
+  text-align: center;
 }
 
 /* Footer */
+
 footer {
   background-color: #393939;
   color: #f1f1f1;
